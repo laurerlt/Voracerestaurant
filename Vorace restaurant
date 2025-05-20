@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vorace - Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Areqo&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-areqo {
+      font-family:"arqueo"
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-[#2e4b3b] p-6 text-white">
+    <h1 class="text-4xl font-areqo text-center">Vorace</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-gray-100 p-4 text-center space-x-4">
+    <a href="#menu" class="hover:underline">Menu</a>
+    <a href="#apropos" class="hover:underline">À propos</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+  </nav>
+
+  <!-- Menu Section -->
+  <section id="menu" class="p-8">
+    <h2 class="text-2xl font-semibold mb-4">Notre Menu</h2>
+    <p>Découvrez nos plats savoureux...</p>
+  </section>
+
+  <!-- À propos Section -->
+  <section id="apropos" class="p-8 bg-gray-50">
+    <h2 class="text-2xl font-semibold mb-4">À propos de Vorace</h2>
+    <p>Vorace est un restaurant situé à Plérin, près de Saint-Brieuc...</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-8">
+    <h2 class="text-2xl font-semibold mb-4">Contactez-nous</h2>
+    <form class="space-y-4 max-w-md mx-auto">
+      <input type="text" placeholder="Votre nom" class="w-full p-2 border border-gray-300 rounded" />
+      <input type="email" placeholder="Votre email" class="w-full p-2 border border-gray-300 rounded" />
+      <textarea placeholder="Votre message" class="w-full p-2 border border-gray-300 rounded"></textarea>
+      <button type="submit" class="bg-[#2e4b3b] text-white px-4 py-2 rounded">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center p-4 text-sm">
+    &copy; 2025 Vorace. Tous droits réservés.
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vorace Restaurant</title>
+  <style>
+    @font-face {
+      font-family: 'Areqo';
+      src: url('fonts/areqo.woff2') format('woff2'),
+           url('fonts/areqo.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      background-color: #ffffff;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #2e4b3b;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .logo-text {
+      font-family: 'Areqo', sans-serif;
+      font-size: 48px;
+      letter-spacing: 4px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-text">VORACE</div>
+    <div class="subtitle">RESTAURANT</div>
+  </header>
+</body>
+</html>
